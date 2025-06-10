@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #ffaf00;
+  --primary-light: #ffe4a9;
+  --dark-color: #031521;
+  --light-bg: #f7f7f7;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light-bg);
+  color: #333;
+}
+
+.navbar-dark.bg-dark {
+  background-color: var(--dark-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #f29e00;
+  border-color: #f29e00;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1559767948-1c72fd8d2c93?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+}
+
+.hero .container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+}
+
+.card-title {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
